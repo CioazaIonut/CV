@@ -1,0 +1,38 @@
+/* headings */
+h1 {
+  color: blue;
+}
+
+h2 {
+  color: red;
+}
+
+h3 {
+  color: orange;
+}
+
+h4 {
+  color: green;
+}
+
+/* continut */
+td {
+  color: black;
+  padding: 15px 20px;
+  border: 4px solid black;
+  margin: 3px;
+}
+
+tr:first-of-type td {
+  background: lightblue;
+  color: black;
+}
+
+tr:nth-of-type(2) td {
+  background-color: beige;
+  color: brown;
+}
+
+.my-paragraph {
+  color: rgb(0, 0, 255);
+}
